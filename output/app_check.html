@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Campus Customs — app check</title>
+  <style>
+    body { font-family: Georgia, serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; color: #142033; }
+    h1, h2 { color: #00356b; }
+    img { max-width: 100%; border: 1px solid #c9d3e2; border-radius: 8px; margin: 0.75rem 0 1.5rem; }
+    p { line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <h1>Campus Customs site testing</h1>
+  <p>Live checks against the React front end + FastAPI back end using <code>campus_customs.db</code>.</p>
+
+  <h2>1. Inventory chat lookup</h2>
+  <img src="app_check_images/inventory_chat.png" alt="Chat answering stock for Basic Hoodie Big Yale size M" />
+  <p>
+    On the Basic Hoodie Big Yale detail page, chat was asked for size M stock.
+    The assistant answered from the inventory table: <strong>5 in stock</strong> — not an invented number.
+  </p>
+
+  <h2>2. Dynamic search-result cards</h2>
+  <img src="app_check_images/search_cards.png" alt="Chat hoodie search updating product cards on the page" />
+  <p>
+    Asking “what hoodies do you have?” returned structured matches and switched the Products view to
+    <em>Chat matches</em> with hoodie cards. Each card still links to the single-item detail page.
+  </p>
+
+  <h2>3. Usability feature (Problem 9) — garment filter</h2>
+  <img src="app_check_images/usability_filter.png" alt="Products page filtered to bomber jacket" />
+  <p>
+    The Products page <strong>Filter by type</strong> control narrows the catalogue (here: bomber jacket)
+    without using chat — one of the front-end usability improvements in <code>usability.md</code>.
+  </p>
+</body>
+</html>

@@ -1,0 +1,253 @@
+[
+  {
+    "time": "2026-10-22T00:03:18.509290+00:00",
+    "tool_name": "chat_turn_start",
+    "args": {
+      "message": "what hoodies do you have?",
+      "page": null
+    },
+    "result": null,
+    "stop_reason": null,
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:03:18.509764+00:00",
+    "tool_name": "search_catalogue",
+    "args": "hoodie",
+    "result": "ok",
+    "stop_reason": null,
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:03:18.511663+00:00",
+    "tool_name": "chat_turn_end",
+    "args": {},
+    "result": "I found 8 matching item(s), including Basic Hoodie Big Yale, Champion Reverse Weave Hoodie 1, Crew Left Chest Hoodie, District Vit Hoodie Vintage Bulldog. They should appear as product cards on the page \u2014 tap one for full details.",
+    "stop_reason": "local_fallback_no_api_key",
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:03:18.528921+00:00",
+    "tool_name": "chat_turn_start",
+    "args": {
+      "message": "stock for Basic Hoodie Big Yale size M",
+      "page": null
+    },
+    "result": null,
+    "stop_reason": null,
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:03:18.529118+00:00",
+    "tool_name": "search_catalogue",
+    "args": "hoodie",
+    "result": "ok",
+    "stop_reason": null,
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:03:18.530246+00:00",
+    "tool_name": "chat_turn_end",
+    "args": {},
+    "result": "I found 8 matching item(s), including Basic Hoodie Big Yale, Champion Reverse Weave Hoodie 1, Crew Left Chest Hoodie, District Vit Hoodie Vintage Bulldog. They should appear as product cards on the page \u2014 tap one for full details.",
+    "stop_reason": "local_fallback_no_api_key",
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:03:18.632009+00:00",
+    "tool_name": "chat_turn_start",
+    "args": {
+      "message": "how much is the basic hoodie big yale?",
+      "page": null
+    },
+    "result": null,
+    "stop_reason": null,
+    "user_id": 1
+  },
+  {
+    "time": "2026-10-22T00:03:18.632215+00:00",
+    "tool_name": "search_catalogue",
+    "args": "hoodie",
+    "result": "ok",
+    "stop_reason": null,
+    "user_id": 1
+  },
+  {
+    "time": "2026-10-22T00:03:18.633531+00:00",
+    "tool_name": "chat_turn_end",
+    "args": {},
+    "result": "I found 8 matching item(s), including Basic Hoodie Big Yale, Champion Reverse Weave Hoodie 1, Crew Left Chest Hoodie, District Vit Hoodie Vintage Bulldog. They should appear as product cards on the page \u2014 tap one for full details.",
+    "stop_reason": "local_fallback_no_api_key",
+    "user_id": 1
+  },
+  {
+    "time": "2026-10-22T00:03:56.114763+00:00",
+    "tool_name": "chat_turn_start",
+    "args": {
+      "message": "stock for Basic Hoodie Big Yale size M",
+      "page": null
+    },
+    "result": null,
+    "stop_reason": null,
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:03:56.115360+00:00",
+    "tool_name": "get_stock",
+    "args": "Basic Hoodie Big Yale M size=M",
+    "result": "ok",
+    "stop_reason": null,
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:03:56.116145+00:00",
+    "tool_name": "chat_turn_end",
+    "args": {},
+    "result": "No product matched 'Basic Hoodie Big Yale M'.",
+    "stop_reason": "local_fallback_no_api_key",
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:03:56.134852+00:00",
+    "tool_name": "chat_turn_start",
+    "args": {
+      "message": "how much is the Basic Hoodie Big Yale?",
+      "page": null
+    },
+    "result": null,
+    "stop_reason": null,
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:03:56.135131+00:00",
+    "tool_name": "lookup_product",
+    "args": "Basic Hoodie Big Yale",
+    "result": "ok",
+    "stop_reason": null,
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:03:56.136980+00:00",
+    "tool_name": "chat_turn_end",
+    "args": {},
+    "result": "Basic Hoodie Big Yale is $68.00. Navy pullover hoodie with a front kangaroo pocket, drawstring hood, and large white YALE lettering across the chest. Stock by size: XS=15, S=5, M=5, L=8, XL=2, XXL=25.",
+    "stop_reason": "local_fallback_no_api_key",
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:04:12.609282+00:00",
+    "tool_name": "chat_turn_start",
+    "args": {
+      "message": "stock for Basic Hoodie Big Yale size M",
+      "page": null
+    },
+    "result": null,
+    "stop_reason": null,
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:04:12.609984+00:00",
+    "tool_name": "get_stock",
+    "args": "Basic Hoodie Big Yale size=M",
+    "result": "ok",
+    "stop_reason": null,
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:04:12.610705+00:00",
+    "tool_name": "chat_turn_end",
+    "args": {},
+    "result": "Basic Hoodie Big Yale size M: 5 in stock.",
+    "stop_reason": "local_fallback_no_api_key",
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:04:12.628553+00:00",
+    "tool_name": "chat_turn_start",
+    "args": {
+      "message": "what hoodies do you have?",
+      "page": null
+    },
+    "result": null,
+    "stop_reason": null,
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:04:12.630098+00:00",
+    "tool_name": "search_catalogue",
+    "args": "hoodie",
+    "result": "ok",
+    "stop_reason": null,
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:04:12.631398+00:00",
+    "tool_name": "chat_turn_end",
+    "args": {},
+    "result": "I found 8 matching item(s), including Basic Hoodie Big Yale, Champion Reverse Weave Hoodie 1, Crew Left Chest Hoodie, District Vit Hoodie Vintage Bulldog. They should appear as product cards on the page \u2014 tap one for full details.",
+    "stop_reason": "local_fallback_no_api_key",
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:06:40.407596+00:00",
+    "tool_name": "chat_turn_start",
+    "args": {
+      "message": "stock for Basic Hoodie Big Yale size M",
+      "page": {
+        "path": "/products/basic-hoodie-big-yale",
+        "product_id": "basic-hoodie-big-yale",
+        "product_name": "Basic Hoodie Big Yale"
+      }
+    },
+    "result": null,
+    "stop_reason": null,
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:06:40.408868+00:00",
+    "tool_name": "get_stock",
+    "args": "Basic Hoodie Big Yale size=M",
+    "result": "ok",
+    "stop_reason": null,
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:06:40.409377+00:00",
+    "tool_name": "chat_turn_end",
+    "args": {},
+    "result": "Basic Hoodie Big Yale size M: 5 in stock.",
+    "stop_reason": "local_fallback_no_api_key",
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:06:40.840642+00:00",
+    "tool_name": "chat_turn_start",
+    "args": {
+      "message": "what hoodies do you have?",
+      "page": {
+        "path": "/products",
+        "product_id": null,
+        "product_name": null
+      }
+    },
+    "result": null,
+    "stop_reason": null,
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:06:40.842288+00:00",
+    "tool_name": "search_catalogue",
+    "args": "hoodie",
+    "result": "ok",
+    "stop_reason": null,
+    "user_id": null
+  },
+  {
+    "time": "2026-10-22T00:06:40.845496+00:00",
+    "tool_name": "chat_turn_end",
+    "args": {},
+    "result": "I found 8 matching item(s), including Basic Hoodie Big Yale, Champion Reverse Weave Hoodie 1, Crew Left Chest Hoodie, District Vit Hoodie Vintage Bulldog. They should appear as product cards on the page \u2014 tap one for full details.",
+    "stop_reason": "local_fallback_no_api_key",
+    "user_id": null
+  }
+]
